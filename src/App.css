@@ -1,0 +1,54 @@
+.family-tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.family-tree .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.family-tree .father {
+  margin-right: 20px;
+  background-color: aqua;
+  height: 6em;
+  width: 8em;
+  text-align: center;
+}
+
+.family-tree .mother {
+  margin-left: 20px;
+  background-color: blueviolet;
+  height: 6em;
+  width: 8em;
+  text-align: center;
+}
+
+.family-tree .you {
+  text-align: center;
+  height: 6em;
+  width: 8em;
+  background-color: lightgray;
+}
+
+.family-tree .father img,
+.family-tree .mother img,
+.family-tree .you img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.family-tree .father h4,
+.family-tree .mother h4,
+.family-tree .you h4 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
