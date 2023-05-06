@@ -1,0 +1,17 @@
+.container{
+    height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    
+    }
+ 
+ .gender{
+     margin-left: 2.8em;
+ }
+ .showcontent{
+     margin-top: 20em;
+     color: rgb(52, 23, 221);
+     margin-left: -15em;
+ 
+ }

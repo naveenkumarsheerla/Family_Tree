@@ -3,7 +3,13 @@ import f3 from "family-chart";
 import './family-chart.css'; 
 
 export default class FamilyTree extends React.Component {
+
+    
+
   cont = React.createRef();
+
+
+  
 
   componentDidMount() {
     if (!this.cont.current) return;
@@ -63,6 +69,8 @@ export default class FamilyTree extends React.Component {
             "mother": 3,
             "children": [
               6
+
+
             ]
           }
         },
